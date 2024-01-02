@@ -1,25 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Company Profile</title>
-  <!-- link css -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav>
-    <div class="logo">
-      <h4>GR</h4>
-    </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Green Corner</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- icon bootstrap -->
+  
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Goo -->
+    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-xl shadow-sm bg-light ">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logogc.png" alt="Bootstrap" width="95" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav text-align">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Paket List
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="listcamping.html">Camping</a></li>
+                <li><a class="dropdown-item" href="listcabin.html">Cabin</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="listoutbound.html">Outbound</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentangkami.html"> Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fasilitas.html"> Fasilitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Stop -->
 
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skill">Product</a></li>
-      <li><a href="#portfolio">Experience</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-</body>
+    <!-- Home -->
+    <section class="home" id="home">
+     <div class="container">
+      <div class="row">
+        <div class="col mt-5 mx-5">
+          <h1 class="fw-bold" style="color: azure;">Nikmati Suasana Alam <span>Pangalengan</span></h1>
+          <h3 class="fw-semi-bold" style="color: azure;">Bersama Green Corner</h3>
+        </div>
+      </div>
+     </div>
+     
+    </section>
+    <!-- Home Stopp -->
+
+    <!-- List Layanan -->
+    <section class="layanan">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="fw-semibold">Layanan Kami</h2>
+            <span class="sub-title">Pelayanan Kami, Kepuasan Anda. Menghadirkan Layanan Berkualitas</span>
+          </div>  
+        </div>
+            
+            <div class="row mt-2 mx-5 my-5">
+            <div class="col-md-4">
+            <div class="card-layanan">
+             
+              <h5 class="mt-3 fw-semibold"><i class="bi bi-person-raised-hand" style="color: green;"></i> Customer Support</h5>
+              <p class="mt-3">Green Corner Pangalengan memiliki prinsip melayani Anda dengan sepenuh Hati serta kemudahan dan selalu siap siaga selama 24 Jam </p>
+            </div>
+          </div>
+      
+            <div class="col-md-4">
+              <div class="card-layanan">
+               
+                <h5 class="mt-3 fw-semibold"><i class="bi bi-geo-alt-fill" style="color: green;"></i> Lokasi Mudah</h5>
+                <p class="mt-3">Lokasi kami berada berada ditepi danau Situ Cileunca yang akan menyuguhkan pemandangan yang asri serta mudah diakses oleh kendaraan pribadi </p>
+              </div>
+            </div>
+            
+              <div class="col-md-4">
+                <div class="card-layanan">
+                  <h5 class="mt-3 fw-semibold"><i class="bi bi-cash-stack" style="color: green;"></i> Harga Kompetitif</h5>
+                  <p class="mt-3">Harga yang kami tawarkan sesuai dengan pelayanan dan fasilitas yang kami berikan untuk Anda. </p>
+                </div>
+              </div>
+              
+        </div>
+      </div>
+    </section>
+    <!-- List Layanan Stop-->
+
+    <!-- List Paket  -->
+    <section class="paketlist" id="list">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="fw-semibold">Paket List</h2>
+            <span class="sub-title">Ke Pangalengan bingung nyari tempat berkemah, menginap dan outbound?
+              Ke Green Corner banyak pilihan</span>
+          </div>  
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mx-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/camparea.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">Camping Lakaside</h5>
+                <p class="card-text">Green Corner menyediakan 2 area Camping Ground yaitu Green Corner & GC Land</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary" href="listcamping.html" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Selengkapnya</a> 
+           
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/cabin.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">Cabin</h5>
+                <p class="card-text">Terdapat 2 jenis Cabin di Green Corner : Cabin GC (2 Unit) & Treecabin (3 Unit)</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary" href="listcabin.html" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Selengkapnya</a>            
+               </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/outbound.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold">Outbound</h5>
+                <p class="card-text">Agar menambah keseruan selama di Green Corner, Anda bisa menikmati Outbound : Rafting, ATV, Paintball, Flyingfox, Fun Offroad, Fun Games & Team Building</p>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary" href="listoutbound.html" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Selengkapnya</a>            
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container text-center mt-5 my-">
+          <div class="row">
+            <div class="col-12 text-center align-item-center">
+              <h2 class="fw-mediumbold">
+                Ajak teman & keluarga Anda untuk menikmati liburan di Pangalengan bersama Green Corner
+                </h2>
+              <span class="sub-title">Nikmati berkemah dan menginap ditepi Danau Situ Cileunca serta rasakan suasana Asri di Pegunungan.</span>
+            </div>  
+          </div>
+
+    </section>
+    <!-- List Paket Stop -->
+
+
+    <!-- footer -->
+    <footer>
+      <div class="contact bg-secondary-subtle mt-5" id="contact"> 
+        <div class="container ">
+          <!-- Content here -->
+       
+        <div class="card-group row-cols-1 row-cols-md-4 px-3 mx-3">
+          <div class="col">
+            <div class="card-sosial">
+              <br>
+              <h6 class="card-title">Social Media</h6>
+              <br>
+              <a href="https://www.instagram.com/greencornerofficial/?hl=id"><i class="bi bi-instagram"></i></i></a>
+              <a href="https://www.youtube.com/channel/UC7X-1TD9JuCaewa_yDX1gZw"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.tiktok.com/@greencornerofficial"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.facebook.com/GreenCornerPangalengan/"><i class="bi bi-facebook"></i></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <br>
+              <h6 class="card-title">Link</h6>
+              <br>
+                <a class="dropdown-item" href="listcamping.html">Camping</a>
+                <a class="dropdown-item" href="listcabin.html">Cabin</a>
+                <a class="dropdown-item" href="listoutbound.html">Outbound</a>
+                <a class="dropdown-item" href="tentangkami.html">About Us</a>
+                <a class="dropdown-item" href="contact.html">contact Us</a>
+                <br><br>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card-body">
+              <br>
+              <h6 class="card-title">Lokasi Kami</h6>
+              <br>
+              <p class="card-text">Green Corner, Kp. Cipangisikan RT 01/RW 07, Desa Warnasari, Kec. Pangalengan, Kab. Bandung 40378 </p>
+              <br><br>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </footer>
+    <!-- footer stop -->
+
+    
+
+            
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
