@@ -21,6 +21,8 @@
    <!-- icon bootstrap -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
    <!-- icon bootstrap -->
+   <!-- aos animation -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Link css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -72,7 +74,7 @@
       <section class="paketlist" id="about">
         <div class="container">
           <div class="row">
-            <div class="col-12 text-center" style="color: green;">
+            <div class="col-12 text-center">
               <h2 class="fw-semibold">
                 Temukan Paket menarik Anda di Green Corner Camp
                 </h2>
@@ -88,7 +90,9 @@
             </div>
 
           <div class="row row-cols-1 row-cols-md-3 g-4 mx-3 mt-3">
-            <div class="col">
+            <div class="col" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1200">
               <div class="card h-100">
                 <img src="img/outbound/1.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -110,7 +114,9 @@
               </div>
             </div>
 
-              <div class="col">
+              <div class="col" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1200">
                 <div class="card h-100">
                   <img src="img/outbound/2.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -132,7 +138,9 @@
                 </div>
               </div>
 
-                <div class="col">
+                <div class="col" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
                   <div class="card h-100">
                     <img src="img/outbound/3.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -152,7 +160,9 @@
                     </div>
                 </div>         
                 
-                <div class="col">
+                <div class="col" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
                   <div class="card h-100">
                     <img src="img/outbound/4.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -173,7 +183,9 @@
                     </div>
                 </div>
                 
-                <div class="col">
+                <div class="col" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
                   <div class="card h-100">
                     <img src="img/outbound/5.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -194,7 +206,9 @@
                     </div>
                 </div>
                 
-                <div class="col">
+                <div class="col" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
                   <div class="card h-100">
                     <img src="img/outbound/5.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -214,7 +228,9 @@
                       </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
                   <div class="card h-100">
                     <img src="img/outbound/6.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -234,7 +250,9 @@
                     </div>
                 </div>
                 
-                <div class="col">
+                <div class="col" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
                   <div class="card h-100">
                     <img src="img/outbound/7.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -312,8 +330,19 @@
               <br><br>
             </div>
           </div>
-
         </div>
+        <section class="footer">
+          <div class="row mx-3 mt-3">
+            <div class="col-md-9">
+              <p>Copyright © 2024 Green Corner</p>
+            </div>
+            <div class="col">
+              <p>Powered by Green Corner</p>
+            </div>
+          </div>
+          <br>
+        </section>
+  
       </div>
     </div>
     </footer>
@@ -330,5 +359,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

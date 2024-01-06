@@ -26,6 +26,10 @@
       rel="stylesheet"
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
     />
+
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Link css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -99,16 +103,18 @@
     <section>
       <div class="container">
         <div class="row text-center">
-          <div class="col mt-5">
-            <h2>Tentang Kami</h2>
+          <div class="col mt-5" data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">
+            <h2 class="fw-semibold">Tentang Kami</h2>
           </div>
         </div>
-        <div class="row mt-5 my-3 mx-3">
-          <div class="col-md-3">
+        <div class="row mt-5 mx-3" style="text-align: justify;">
+          <div class="col-md-3" data-aos="fade-right">
             <h6>Ke Pangalengan bingung nyari tempat berkemah, menginap dan outbound?
             Ke Green Corner aja solusinya</h6>
+            <img src="img/home.png" class="rounded mx-auto d-block my-4" width="300" height="180"alt="...">
           </div>
-          <div class="col">
+          <div class="col mx-3" data-aos="fade-left">
             Green Corner Camping Pangalengan berdiri sejak tahun 2021, di
             inisiasi bersama tokoh masyarakat, tokoh pemuda & Karang Taruna 07
             Chips dilingkungan Kp. Cipangisikan RW 07. Berawal untuk
@@ -128,14 +134,16 @@
           </div>
         </div>
         <br><br><br>
-        <div class="row text-center px-5 mt-3">
-          <div class="col">
+        <div class="row text-center px-5 mt-3" >
+          <div class="col" data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">
             <h4>Camping? Cabin? Outbound?</h4>
           </div>
           </div>
         </div>
-        <div class="row text-center justify-content-center mt-2 mx-3">
-          <div class="col-md-5 mt-3 my-5">
+        <div class="row text-center justify-content-center mt-2 mx-3" >
+          <div class="col-md-5 mt-3 my-5" data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">
             <p>Hubungi admin Green Corner agar Anda mendapatkan penawaran menarik untuk aktivitas Anda selama di Pangalengan. Kemanapun wisatanya di Pangalengan Green Corner Solusinya.</p>
             <a class="btn btn-success" href="https://wa.me/6285210010902" role="button"><i class="bi bi-whatsapp"></i> Booking</a>
           </div>
@@ -187,8 +195,19 @@
               <br><br>
             </div>
           </div>
-
         </div>
+        <section class="footer">
+          <div class="row mx-3 mt-3">
+            <div class="col-md-9">
+              <p>Copyright © 2024 Green Corner</p>
+            </div>
+            <div class="col">
+              <p>Powered by Green Corner</p>
+            </div>
+          </div>
+          <br>
+        </section>
+  
       </div>
     </div>
     </footer>
@@ -199,5 +218,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

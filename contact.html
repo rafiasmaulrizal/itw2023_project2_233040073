@@ -21,6 +21,9 @@
     <!-- icon bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!-- icon bootstrap -->
+
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
     <!-- Link css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -70,27 +73,31 @@
       <div class="container">
         <div class="row">
           <div class="col-12 px-3 text-center mt-5">
-            <h2 class="fw-semibold" style="color: green;">
+            <h2 class="fw-semibold" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
               Temukan Paket Menginap di Green Corner
               </h2>
               <br>
-            <span class="sub-title fw-medium" style="color: grey;">"Selain menyediakan pengalaman berkemah yang tak terlupakan di Camping Ground Green Corner, kami juga bangga mempersembahkan fasilitas eksklusif kami berupa cabin yang nyaman. Dengan kabin-kabin modern dan berbagai kenyamanan, Green Corner menjadi destinasi ideal untuk menikmati alam sambil merasakan kesejukan dan kenyamanan yang tak terhingga." </span>
+            <p class="mt-3 mx-3 sub-title fw-medium"  style=" text-align: justify;">"Selain menyediakan pengalaman berkemah yang tak terlupakan di Camping Ground Green Corner, kami juga bangga mempersembahkan fasilitas eksklusif kami berupa cabin yang nyaman. Dengan kabin-kabin modern dan berbagai kenyamanan, Green Corner menjadi destinasi ideal untuk menikmati alam sambil merasakan kesejukan dan kenyamanan yang tak terhingga." </p>
           </div>  
         </div>
 
         <div class="row mt-5 my-3 mx-3">
-          <div class="col-md-7">
+          <div class="col-md-9" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
             <h6>Ke Pangalengan bingung nyari tempat berkemah, menginap dan outbound?
             Ke Green Corner aja solusinya</h6>
             <br>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-4" data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom">
                 <h6><i class="bi bi-whatsapp" style="color: green;"></i> WhatsApp</h6>
                 <p>Informasi & Reservasi :
                 <br>0852-1001-0902 (Admin 1)
                 <br>0852-1001-0919 (Admin 2)</p>
               </div>
-              <div class="col">
+              <div class="col-md-5" data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom">
                 <h6><i class="bi bi-envelope-fill" style="color: green;"></i> Media Sosial</h6>
                 <p>instagram  : greencornerofficial
                 <br>tiktok : greencornerofficial
@@ -100,8 +107,34 @@
 
             </div>
           </div>
-          <div class="col">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3467337847983!2d107.54624925045101!3d-7.201223297653379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e689149a687f46d%3A0x99f20bff2614906!2sGreen%20Corner%20Camping%20Pangalengan!5e0!3m2!1sid!2sid!4v1704085570696!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+          <div class="col-md-3 mt-4" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <h6><i class="bi bi-geo-alt-fill" style="color: green;"></i> Maps Green Corner</h6>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3467337847983!2d107.54624925045101!3d-7.201223297653379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e689149a687f46d%3A0x99f20bff2614906!2sGreen%20Corner%20Camping%20Pangalengan!5e0!3m2!1sid!2sid!4v1704085570696!5m2!1sid!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>        
+          </div>
+
+          <div class="row" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <div class="col-md-6">
+              <form name='port-contact-form'>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                </div> 
+                <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
+              </form>
+
+            </div>
+          </div>
       </section>
 
 
@@ -153,20 +186,51 @@
             </div>
           </div>
 
+          
+
         </div>
+        <section class="footer">
+          <div class="row mx-3 mt-3">
+            <div class="col-md-9">
+              <p>Copyright © 2024 Green Corner</p>
+            </div>
+            <div class="col">
+              <p>Powered by Green Corner</p>
+            </div>
+          </div>
+          <br>
+        </section>
+  
       </div>
     </div>
     </footer>
     <!-- footer stop -->
 
     
-
-            
-    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxJwGtXcJ_22OdbFmhOd2n4LqzQvFJVTGdirFKgbCIiplPUj0H-qRPbHUi1ld1orPBREw/exec'
+  const form = document.forms['port-contact-form']
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      form.reset();
+      console.log('Success!', response)
+    })
+        
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
